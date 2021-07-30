@@ -27,12 +27,12 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => 'v8.5.22',
-    'version' => '8.5.22.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '0c2fb0de7b239e016401ee8b22e1d81a4569a9c0',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -455,6 +455,15 @@ private static $installed = array (
         0 => '*',
       ),
     ),
+    'laravel-frontend-presets/tailwindcss' => 
+    array (
+      'pretty_version' => '4.3.1',
+      'version' => '4.3.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '4f821e72ff7a46057d815d450ce8f7c64f7abe7a',
+    ),
     'laravel/framework' => 
     array (
       'pretty_version' => 'v8.52.0',
@@ -466,12 +475,12 @@ private static $installed = array (
     ),
     'laravel/laravel' => 
     array (
-      'pretty_version' => 'v8.5.22',
-      'version' => '8.5.22.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '0c2fb0de7b239e016401ee8b22e1d81a4569a9c0',
     ),
     'laravel/sail' => 
     array (
@@ -490,6 +499,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '04ad32c1a3328081097a181875733fa51f402083',
+    ),
+    'laravel/ui' => 
+    array (
+      'pretty_version' => 'v3.3.0',
+      'version' => '3.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '07d725813350c695c779382cbd6dac0ab8665537',
     ),
     'league/commonmark' => 
     array (
@@ -829,8 +847,8 @@ private static $installed = array (
     array (
       'provided' => 
       array (
-        0 => '1.0|2.0',
-        1 => '1.0.0',
+        0 => '1.0.0',
+        1 => '1.0|2.0',
       ),
     ),
     'psr/simple-cache' => 
